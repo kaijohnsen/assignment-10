@@ -1,0 +1,46 @@
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+p {
+    font-size: 1.1rem;
+}
+
+h1, .byline {
+    font-family: 'Archivo Black', Verdana, sans-serif;
+ }
+.container {
+    background-color: #CAA4DA;
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+.intro, .beach, .beach-credit, .mouse, .link {
+    background-color: #f8d7da;
+    font-family: 'Merriweather', Georgia, serif;
+    padding: 1.25rem;
+    padding-bottom: 0.5rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+.beach-credit {
+    margin-top: 1.5rem;
+    padding-top: 1rem;
+}
+.rotate-right {
+    transform: rotate(0deg);
+}
+
+.rotate-left {
+    transform: rotate(-15deg);
+}
+
+.mouse {
+    margin-top: 1.25rem;
+    padding-bottom: 1rem;
+}
+
+.beach-credit p, .mouse p {
+    word-wrap: break-word;
+}
